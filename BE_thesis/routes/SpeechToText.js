@@ -4,9 +4,6 @@ const { RealtimeSession } = require('speechmatics');
 
 const router = express.Router();
 
-
-//const base64 = require('base64-js'); // Assuming you're using base64-js
-
 router.post('/api/speechtotext', async (req, res) => {
   try {
     const formData = req.body.formData;
