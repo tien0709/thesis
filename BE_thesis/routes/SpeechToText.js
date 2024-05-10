@@ -1,15 +1,5 @@
 const express = require('express');
 const  fs = require('fs');
-const OpenAI = require('openai');
-const base64 = require('nodejs-base64-converter');
-const wav = require('node-wav');
-const speech = require('@google-cloud/speech');
-// Creates a client
-const client = new speech.SpeechClient();
-const openai = new OpenAI({
-  apiKey: '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', // Replace with your actual key
-});
-
 const { RealtimeSession } = require('speechmatics');
 
 const router = express.Router();
@@ -30,7 +20,7 @@ router.post('/api/speechtotext', async (req, res) => {
   // Lưu dữ liệu nhị phân ra file WAV mới
   fs.writeFileSync('record.wav', decodedBuffer, 'binary');
     
-  const API_KEY = 'wLOyL0TKZbhNffPHjlpbGxygcJf3klEX';
+  const API_KEY = '';//hiden when push to github
   
   const session = new RealtimeSession({ apiKey: API_KEY });
   const PATH_TO_FILE = 'record.wav';
