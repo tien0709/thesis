@@ -1,0 +1,7 @@
+/backend_firebase/node_modules
+/backend_firebase/.env*
+/backend_firebase/firebase.js
+/backend_firebase/smarthome-92b52-firebase-adminsdk-xkjgk-dbe5d5cfce.json
+/frontend/node_modules
+/backend_MongoDB/node_modules
+/node_modules
