@@ -1,0 +1,174 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  Viewcontainer: {
+    flex: 1,
+  },
+
+  container: {
+    marginTop:0,
+    flex: 1,
+    backgroundColor: '#F5F9F9',
+
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '95%', // Giới hạn chiều rộng của header
+    marginTop: 70,
+    height: '5%',
+  },
+  centeredText: {
+    flex: 1,
+    color: '#000',
+    fontSize: 20,
+    textAlign: 'center',
+    marginLeft: 70,
+    fontWeight: 'bold',
+  },
+  bellIconContainer: {
+    marginLeft: 'auto',
+    marginRight: 20,
+  },
+
+  microIconContainer: {
+    marginLeft: 'auto',
+  },
+
+  bodyImageContainer:{
+          width: '100%',
+          height: '30%',
+          marginVertical: 15,
+  },
+
+  bodyImage: {
+    width: '100%',
+    height: '100%',
+  },
+
+  deviceInformationContainer: {
+    marginTop: 40,
+    width: '100%',
+    height: '22%',
+    flexDirection: 'row',
+  },
+
+  fanContainer: {
+    justifyContent: 'center',
+    width: '43%',
+    height: '100%',
+    backgroundColor: '#1E90FF',
+    borderRadius: 24,
+    marginHorizontal: 20,
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.4,
+    shadowRadius: 4,
+    elevation: 5, // Cho Android để hiển thị bóng đổ
+  },
+
+  ledContainer: {
+    justifyContent: 'center',
+    width: '43%',
+    height: '100%',
+    backgroundColor: '#fff',
+    borderRadius: 24,
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.4,
+    shadowRadius: 4,
+    elevation: 5, // Cho Android để hiển thị bóng đổ
+  },
+
+  sensorInformationContainer: {
+    flexDirection: 'row',
+    marginLeft: 20,
+    width: '90%',
+    height: '8%',
+    marginTop: 20,
+    backgroundColor: '#fff',
+    borderRadius: 24,
+    paddingHorizontal: 15,
+    paddingTop: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.4,
+    shadowRadius: 4,
+    elevation: 5, // Cho Android để hiển thị bóng đổ
+  },
+
+  deviceInformationText: {
+     marginVertical: 5,
+     marginHorizontal: 20,
+     fontSize: 12,
+  },
+
+  thumbStyle: {
+    width: 30, // Đặt chiều rộng của nút kéo
+    height: 30, // Đặt chiều cao của nút kéo
+    backgroundColor: '#f8f8f8', // Màu nền của nút kéo
+    borderRadius: 20, // Làm tròn góc để tạo hình dạng hòn bi
+    borderWidth: 8, // Độ dày đường viền
+    borderColor: '#6B6869', // Màu đường viền
+  },
+
+  iconGroup: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+
+  infoText: {
+    flexDirection: 'row',
+    marginTop: 10,
+    fontSize: 15,
+    width: '100%',
+    fontWeight: 'bold',
+  },
+
+  name: {
+    fontSize: 12,
+    marginTop: 20,
+    borderBottomWidth: 1,
+    paddingBottom: 25,
+  },
+  nameBoldText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'white',
+    marginBottom: 5,
+  },
+  nameBoldTextLed: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'black',
+    marginBottom: 5,
+  },
+
+  conditionContainer:{
+    height: '85%',
+    flexDirection: 'row',
+  },
+
+  iconStatus: {
+     justifyContent: 'center',
+     marginRight: 10,
+     paddingLeft: 10,
+  },
+
+  infoStatus: {
+    paddingRight: 10,
+    justifyContent: 'center',
+    borderRightWidth: 1,
+  },
+  infoStatusLight: {
+    paddingRight: 10,
+    justifyContent: 'center',
+  },
+
+});
+
+export default styles;
